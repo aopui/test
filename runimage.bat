@@ -1,0 +1,1 @@
+docker run hello_eclipsecppgcc:v0.1

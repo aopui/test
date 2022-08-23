@@ -1,11 +1,11 @@
-FROM codenvy/cpp_gcc
+FROM eclipse/cpp_gcc
  
 RUN mkdir /home/user/myapp
  
-ADD hello-world.cpp /home/user/myapp
+ADD hello.cpp /home/user/myapp
  
 WORKDIR /home/user/myapp
  
-RUN g++ hello-world.cpp -o hello
+RUN g++ hello.cpp -o hello
  
 CMD ["./hello"]

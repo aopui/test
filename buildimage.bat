@@ -1,0 +1,1 @@
+docker build -f ./hello-dockerfile -t hello_eclipsecppgcc:v0.1 .
